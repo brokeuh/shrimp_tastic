@@ -18,6 +18,21 @@
 		5109F40523E1A09200D68A59 /* pngfuel.com.png in Resources */ = {isa = PBXBuildFile; fileRef = 5109F40223E1A09200D68A59 /* pngfuel.com.png */; };
 		5109F40623E1A09200D68A59 /* pngguru.com.png in Resources */ = {isa = PBXBuildFile; fileRef = 5109F40323E1A09200D68A59 /* pngguru.com.png */; };
 		5109F40923E1A17A00D68A59 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5109F40823E1A17A00D68A59 /* MapKit.framework */; };
+		5110033923E1BD7300D41F80 /* Artiest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110033823E1BD7300D41F80 /* Artiest.swift */; };
+		5110033C23E1BFCD00D41F80 /* ArtiestenDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110033B23E1BFCD00D41F80 /* ArtiestenDataSource.swift */; };
+		5110034023E1C29600D41F80 /* ArtiestenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110033F23E1C29600D41F80 /* ArtiestenCollectionViewCell.swift */; };
+		5110034323E1CEC900D41F80 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110034223E1CEC900D41F80 /* MapViewController.swift */; };
+		5110034523E1CEE000D41F80 /* ArtiestenlijstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110034423E1CEE000D41F80 /* ArtiestenlijstViewController.swift */; };
+		5110034723E1CEFF00D41F80 /* DagEenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110034623E1CEFF00D41F80 /* DagEenViewController.swift */; };
+		5110034923E1CF0A00D41F80 /* DagTweeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110034823E1CF0A00D41F80 /* DagTweeViewController.swift */; };
+		5110034C23E1CF2500D41F80 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110034B23E1CF2500D41F80 /* DetailViewController.swift */; };
+		5110035123E1D0D600D41F80 /* Locaties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110035023E1D0D600D41F80 /* Locaties.swift */; };
+		5110035623E2D68C00D41F80 /* pngguru.com-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5110035223E2D68B00D41F80 /* pngguru.com-2.png */; };
+		5110035723E2D68C00D41F80 /* snoop.png in Resources */ = {isa = PBXBuildFile; fileRef = 5110035323E2D68B00D41F80 /* snoop.png */; };
+		5110035823E2D68C00D41F80 /* eel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5110035423E2D68C00D41F80 /* eel.jpg */; };
+		5110035923E2D68C00D41F80 /* whale.png in Resources */ = {isa = PBXBuildFile; fileRef = 5110035523E2D68C00D41F80 /* whale.png */; };
+		5110035B23E2D73500D41F80 /* snail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5110035A23E2D73500D41F80 /* snail.jpg */; };
+		5110035D23E304E800D41F80 /* LocatiesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110035C23E304E800D41F80 /* LocatiesDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +49,21 @@
 		5109F40223E1A09200D68A59 /* pngfuel.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngfuel.com.png; sourceTree = "<group>"; };
 		5109F40323E1A09200D68A59 /* pngguru.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngguru.com.png; sourceTree = "<group>"; };
 		5109F40823E1A17A00D68A59 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5110033823E1BD7300D41F80 /* Artiest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artiest.swift; sourceTree = "<group>"; };
+		5110033B23E1BFCD00D41F80 /* ArtiestenDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtiestenDataSource.swift; sourceTree = "<group>"; };
+		5110033F23E1C29600D41F80 /* ArtiestenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtiestenCollectionViewCell.swift; sourceTree = "<group>"; };
+		5110034223E1CEC900D41F80 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5110034423E1CEE000D41F80 /* ArtiestenlijstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtiestenlijstViewController.swift; sourceTree = "<group>"; };
+		5110034623E1CEFF00D41F80 /* DagEenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DagEenViewController.swift; sourceTree = "<group>"; };
+		5110034823E1CF0A00D41F80 /* DagTweeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DagTweeViewController.swift; sourceTree = "<group>"; };
+		5110034B23E1CF2500D41F80 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5110035023E1D0D600D41F80 /* Locaties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locaties.swift; sourceTree = "<group>"; };
+		5110035223E2D68B00D41F80 /* pngguru.com-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pngguru.com-2.png"; sourceTree = "<group>"; };
+		5110035323E2D68B00D41F80 /* snoop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snoop.png; sourceTree = "<group>"; };
+		5110035423E2D68C00D41F80 /* eel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eel.jpg; sourceTree = "<group>"; };
+		5110035523E2D68C00D41F80 /* whale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whale.png; sourceTree = "<group>"; };
+		5110035A23E2D73500D41F80 /* snail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snail.jpg; sourceTree = "<group>"; };
+		5110035C23E304E800D41F80 /* LocatiesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatiesDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +98,12 @@
 		5109F3E223E1786B00D68A59 /* shrimp_tastic */ = {
 			isa = PBXGroup;
 			children = (
+				5110034F23E1D00F00D41F80 /* datasources */,
+				5110034123E1CEA500D41F80 /* controllers */,
+				5110033A23E1BFB300D41F80 /* model */,
 				5109F3FA23E1802800D68A59 /* media */,
 				5109F3E323E1786B00D68A59 /* AppDelegate.swift */,
 				5109F3E523E1786B00D68A59 /* SceneDelegate.swift */,
-				5109F3E723E1786B00D68A59 /* ViewController.swift */,
 				5109F3E923E1786B00D68A59 /* Main.storyboard */,
 				5109F3EF23E1789200D68A59 /* Assets.xcassets */,
 				5109F3F123E1789200D68A59 /* LaunchScreen.storyboard */,
@@ -84,6 +116,11 @@
 		5109F3FA23E1802800D68A59 /* media */ = {
 			isa = PBXGroup;
 			children = (
+				5110035A23E2D73500D41F80 /* snail.jpg */,
+				5110035423E2D68C00D41F80 /* eel.jpg */,
+				5110035223E2D68B00D41F80 /* pngguru.com-2.png */,
+				5110035523E2D68C00D41F80 /* whale.png */,
+				5110035323E2D68B00D41F80 /* snoop.png */,
 				5109F40223E1A09200D68A59 /* pngfuel.com.png */,
 				5109F40323E1A09200D68A59 /* pngguru.com.png */,
 				5109F40123E1A09200D68A59 /* Seafront-Nieuwpoort-Belg.jpg */,
@@ -97,6 +134,38 @@
 				5109F40823E1A17A00D68A59 /* MapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5110033A23E1BFB300D41F80 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5110033F23E1C29600D41F80 /* ArtiestenCollectionViewCell.swift */,
+				5110033823E1BD7300D41F80 /* Artiest.swift */,
+				5110035023E1D0D600D41F80 /* Locaties.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5110034123E1CEA500D41F80 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5109F3E723E1786B00D68A59 /* ViewController.swift */,
+				5110034223E1CEC900D41F80 /* MapViewController.swift */,
+				5110034423E1CEE000D41F80 /* ArtiestenlijstViewController.swift */,
+				5110034623E1CEFF00D41F80 /* DagEenViewController.swift */,
+				5110034823E1CF0A00D41F80 /* DagTweeViewController.swift */,
+				5110034B23E1CF2500D41F80 /* DetailViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		5110034F23E1D00F00D41F80 /* datasources */ = {
+			isa = PBXGroup;
+			children = (
+				5110033B23E1BFCD00D41F80 /* ArtiestenDataSource.swift */,
+				5110035C23E304E800D41F80 /* LocatiesDataSource.swift */,
+			);
+			path = datasources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +226,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5110035623E2D68C00D41F80 /* pngguru.com-2.png in Resources */,
 				5109F3F323E1789200D68A59 /* LaunchScreen.storyboard in Resources */,
+				5110035B23E2D73500D41F80 /* snail.jpg in Resources */,
 				5109F40623E1A09200D68A59 /* pngguru.com.png in Resources */,
+				5110035923E2D68C00D41F80 /* whale.png in Resources */,
+				5110035823E2D68C00D41F80 /* eel.jpg in Resources */,
+				5110035723E2D68C00D41F80 /* snoop.png in Resources */,
 				5109F40423E1A09200D68A59 /* Seafront-Nieuwpoort-Belg.jpg in Resources */,
 				5109F3F023E1789200D68A59 /* Assets.xcassets in Resources */,
 				5109F3EB23E1786B00D68A59 /* Main.storyboard in Resources */,
@@ -173,10 +247,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5110034723E1CEFF00D41F80 /* DagEenViewController.swift in Sources */,
+				5110033C23E1BFCD00D41F80 /* ArtiestenDataSource.swift in Sources */,
+				5110034023E1C29600D41F80 /* ArtiestenCollectionViewCell.swift in Sources */,
+				5110035D23E304E800D41F80 /* LocatiesDataSource.swift in Sources */,
+				5110034523E1CEE000D41F80 /* ArtiestenlijstViewController.swift in Sources */,
+				5110034923E1CF0A00D41F80 /* DagTweeViewController.swift in Sources */,
+				5110033923E1BD7300D41F80 /* Artiest.swift in Sources */,
 				5109F3EE23E1786B00D68A59 /* shrimp_tastic.xcdatamodeld in Sources */,
 				5109F3E823E1786B00D68A59 /* ViewController.swift in Sources */,
 				5109F3E423E1786B00D68A59 /* AppDelegate.swift in Sources */,
 				5109F3E623E1786B00D68A59 /* SceneDelegate.swift in Sources */,
+				5110034323E1CEC900D41F80 /* MapViewController.swift in Sources */,
+				5110034C23E1CF2500D41F80 /* DetailViewController.swift in Sources */,
+				5110035123E1D0D600D41F80 /* Locaties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
