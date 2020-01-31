@@ -16,9 +16,10 @@ class LocatieDataSource {
     init() {
         items = [
             
-            "Podia":[Locaties.init(coordinate:CLLocationCoordinate2DMake(51.147810, 2.710733), title: "Europeese regional", beschrijving: "Mr. mime")],
+            "Podia":[Locaties.init(coordinate:CLLocationCoordinate2DMake(51.147810, 2.710733), title: "Mainstage", beschrijving: "mainstage"), Locaties.init(coordinate:CLLocationCoordinate2DMake(51.144284, 2.719900), title: "Joe-Piler stage", beschrijving: "joe piler stage"), Locaties.init(coordinate:CLLocationCoordinate2DMake(51.144384, 2.719800), title: "Marque", beschrijving: "joe piler stage"), Locaties.init(coordinate:CLLocationCoordinate2DMake(51.144884, 2.714900), title: "Unplugged Stage", beschrijving: "joe piler stage")],
+         
             
-            "Shops":[Locaties.init(coordinate: CLLocationCoordinate2DMake(51.927826, 2.652016), title: "GoFest Chicago", beschrijving: "Jaarlijke bijeenkomst voor pokemon go spelers met exlusieve catches")],
+            "Shops":[Locaties.init(coordinate: CLLocationCoordinate2DMake(51.146560, 2.708677), title: "Festival market", beschrijving: "Kleine markt van locaale handelaars"), Locaties.init(coordinate: CLLocationCoordinate2DMake(51.142840, 2.711097), title: "EHBO", beschrijving: "Kleine markt van locaale handelaars"), Locaties.init(coordinate: CLLocationCoordinate2DMake(51.144288, 2.705300), title: "Toiletten", beschrijving: "Kleine markt van locaale handelaars"), Locaties.init(coordinate: CLLocationCoordinate2DMake(51.149312, 2.721217), title: "Politie", beschrijving: "Kleine markt van locaale handelaars")],
 
         ]
     }

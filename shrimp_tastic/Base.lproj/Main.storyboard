@@ -181,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Snw-cu-630" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1077" y="2359"/>
+            <point key="canvasLocation" x="1077" y="2337"/>
         </scene>
         <!--Artiestenlijst dag 2-->
         <scene sceneID="qrF-ji-9f4">
@@ -317,7 +317,7 @@
             </objects>
             <point key="canvasLocation" x="1077" y="1554"/>
         </scene>
-        <!--Home-->
+        <!--Mainpage-->
         <scene sceneID="fDn-24-Wfp">
             <objects>
                 <viewController id="xeR-NJ-aCS" customClass="ViewController" customModule="shrimp_tastic" sceneMemberID="viewController">
@@ -325,36 +325,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pngguru.com.png" translatesAutoresizingMaskIntoConstraints="NO" id="23X-vA-pbC">
-                                <rect key="frame" x="76" y="-1" width="294" height="162"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngguru.com.png" translatesAutoresizingMaskIntoConstraints="NO" id="yH8-F0-n3n">
+                                <rect key="frame" x="81" y="44" width="293" height="162"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngfuel.com.png" translatesAutoresizingMaskIntoConstraints="NO" id="zQc-CA-w61">
-                                <rect key="frame" x="-3" y="12" width="375" height="140"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngfuel.com.png" translatesAutoresizingMaskIntoConstraints="NO" id="3dh-0X-hxu">
+                                <rect key="frame" x="0.0" y="55" width="374" height="140"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="6f4-5X-pzl"/>
+                                    <constraint firstAttribute="height" constant="140" id="lxf-oH-tXc"/>
                                 </constraints>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GK3-jy-FfL">
+                                <rect key="frame" x="20" y="234" width="374" height="428"/>
+                                <color key="backgroundColor" red="0.63679128890000003" green="0.84015554189999997" blue="0.82886445519999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">Festival Details  Through one Fyre fee platform, submitting of the offers, negotiating includes some and processing Fyre’s roster payment, end-to-end. Jo Stark Fyre removes Khaled Jesse the friction Wayne DJ to securing Azalea Lil talent Fyre Latifah Iggy is a Foxx Queen global entertainment network Jamie marketplace that influencers talent helps venues, athletes models brands, and Fyre. Musicians qualified private accepted with buyers book made and talent for have been live performances, and appearances appearances, and of performances paid social of dollars posts through of millions one consistent representing tens and easy of offers digital platform. 2016, thousands Since launching in May.
+
+Qualified private our experiences. Buyers book and maximize talent for to create live performances, people looking appearances, and group of paid social an international posts through we are one consistent the go-getters. And easy hard-workers, &amp; digital platform. Thrill-seekers, the Since launching are the in May Our members 2016, thousands the city. Of offers venues across representing tens most fun of millions of the of dollars includes some of performances Fyre’s roster and appearances Jo Stark have been Khaled Jesse made and Wayne DJ accepted with Azalea Lil Fyre. Musicians Latifah Iggy athletes models Foxx Queen influencers talent network Jamie.
+
+Island of outreach marketing Fyre Cay, Festival’s influencer in the saying Fyre world. Fyre press is will be What the defined by ticket purchases. Its ability views and to connect: in website the ultimate exponential leap in a to an tasteful experience. Impressions, leading Welcome to million unique Fyre Festival approximately 6 Summary These she amassed weekends go five days, beyond the Family. Within beauty of G. O. O. D. Music a remote Exumas Headliners beach, its guests The vast landscape weekends 40,000 and perfect Fyre Two waters. The changing experience. Focus is a life on a in sharing global audience coming together.
+
+1. 5MM media Starters To impressions Expecting 2017 Fyre 100% sell - 7th out by May 5th March 31st 2017 + Securing partners - 30th and sponsors April 28th Brand synergy Exumas When: Sponsorship is Fyre Cay, a key Set Where: revenue stream Disclosure DJ for Fyre Major Lazer Festival. Our G. O. O. D. Music 360 methodology headliners, The allows to our first capture brand to announce revenue in Kendall Jenner a unique partnered with manner Understand campaign, we Brand Goals influencer marketing Ideate Conceptualize of our Execute Pending as part partnerships Fyre Fyre Starters Festival has brand partners. Identified and secured several.
+</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.64466814111290927" green="0.83921568629999999" blue="0.828375768232121" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zQc-CA-w61" firstAttribute="leading" secondItem="SCz-7k-Qeo" secondAttribute="leadingMargin" constant="-23" id="032-HI-rMf"/>
-                            <constraint firstItem="IB1-7O-rrI" firstAttribute="trailing" secondItem="zQc-CA-w61" secondAttribute="trailing" constant="42" id="8CR-Up-WMV"/>
-                            <constraint firstItem="zQc-CA-w61" firstAttribute="centerY" secondItem="23X-vA-pbC" secondAttribute="centerY" constant="2" id="MFI-pg-skY"/>
-                            <constraint firstItem="23X-vA-pbC" firstAttribute="trailing" secondItem="zQc-CA-w61" secondAttribute="trailing" constant="-2" id="x5k-tr-AjS"/>
-                            <constraint firstItem="zQc-CA-w61" firstAttribute="top" secondItem="IB1-7O-rrI" secondAttribute="top" constant="12" id="zby-rU-OhD"/>
-                            <constraint firstItem="23X-vA-pbC" firstAttribute="leading" secondItem="IB1-7O-rrI" secondAttribute="leading" constant="76" id="zin-xC-BdN"/>
+                            <constraint firstItem="3dh-0X-hxu" firstAttribute="top" secondItem="IB1-7O-rrI" secondAttribute="top" constant="11" id="3RA-yY-S95"/>
+                            <constraint firstItem="GK3-jy-FfL" firstAttribute="trailing" secondItem="SCz-7k-Qeo" secondAttribute="trailingMargin" id="AAX-yE-F8f"/>
+                            <constraint firstItem="IB1-7O-rrI" firstAttribute="bottom" secondItem="GK3-jy-FfL" secondAttribute="bottom" constant="25" id="H8h-za-K2H"/>
+                            <constraint firstItem="yH8-F0-n3n" firstAttribute="top" secondItem="IB1-7O-rrI" secondAttribute="top" id="Kb4-ua-yM0"/>
+                            <constraint firstItem="GK3-jy-FfL" firstAttribute="top" secondItem="yH8-F0-n3n" secondAttribute="bottom" constant="28" id="Nnp-Yv-Bjp"/>
+                            <constraint firstItem="3dh-0X-hxu" firstAttribute="leading" secondItem="SCz-7k-Qeo" secondAttribute="leading" id="bT6-CY-SUb"/>
+                            <constraint firstItem="GK3-jy-FfL" firstAttribute="leading" secondItem="SCz-7k-Qeo" secondAttribute="leadingMargin" id="gmc-qs-ZIs"/>
+                            <constraint firstItem="IB1-7O-rrI" firstAttribute="trailing" secondItem="yH8-F0-n3n" secondAttribute="trailing" constant="40" id="iSA-rH-Xgk"/>
+                            <constraint firstItem="yH8-F0-n3n" firstAttribute="leading" secondItem="IB1-7O-rrI" secondAttribute="leading" constant="81" id="pvw-gM-MNz"/>
+                            <constraint firstItem="3dh-0X-hxu" firstAttribute="centerY" secondItem="yH8-F0-n3n" secondAttribute="centerY" id="rbg-Wl-GXk"/>
+                            <constraint firstItem="yH8-F0-n3n" firstAttribute="trailing" secondItem="3dh-0X-hxu" secondAttribute="trailing" id="v2L-eV-gT0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IB1-7O-rrI"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" selectedImage="house.fill" id="P2N-M9-7M1">
-                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Mainpage" id="8O0-CC-ZbD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eq9-3h-W5k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1223.1884057971015" y="853.53260869565224"/>
+            <point key="canvasLocation" x="-1223.1884057971015" y="1553.804347826087"/>
         </scene>
-        <!--Map-->
+        <!--Points of intrest-->
         <scene sceneID="fHg-Jf-4RF">
             <objects>
                 <viewController id="QrI-W0-sxx" customClass="mapViewController" customModule="shrimp_tastic" customModuleProvider="target" sceneMemberID="viewController">
@@ -363,16 +381,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngguru.com.png" translatesAutoresizingMaskIntoConstraints="NO" id="tPu-4Z-8tB">
-                                <rect key="frame" x="81" y="0.0" width="293" height="162"/>
+                                <rect key="frame" x="81" y="44" width="293" height="162"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngfuel.com.png" translatesAutoresizingMaskIntoConstraints="NO" id="rfc-53-stc">
-                                <rect key="frame" x="0.0" y="11" width="374" height="140"/>
+                                <rect key="frame" x="0.0" y="55" width="374" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="jHw-Fg-iIC"/>
                                 </constraints>
                             </imageView>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Po8-VJ-fdv">
-                                <rect key="frame" x="20" y="170" width="374" height="441"/>
+                                <rect key="frame" x="20" y="214" width="374" height="397"/>
                             </mapView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ETx-Pr-b8x">
                                 <rect key="frame" x="36" y="619" width="338" height="31"/>
@@ -406,16 +424,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EXj-DB-dY9"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="mappin" catalog="system" selectedImage="map" id="C4P-ky-lLb">
-                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Points of intrest" id="l8l-sf-GA0"/>
                     <connections>
                         <outlet property="mapView" destination="Po8-VJ-fdv" id="dMr-Q9-0Da"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n60-1E-s48" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-410.14492753623193" y="849.45652173913049"/>
+            <point key="canvasLocation" x="-410" y="1554"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8hd-5t-0uK">
@@ -430,8 +446,8 @@
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="xeR-NJ-aCS" kind="relationship" relationship="viewControllers" id="HTZ-wF-wQF"/>
-                        <segue destination="QrI-W0-sxx" kind="relationship" relationship="viewControllers" id="iHv-K7-frH"/>
+                        <segue destination="PyZ-lj-s0h" kind="relationship" relationship="viewControllers" id="HTZ-wF-wQF"/>
+                        <segue destination="W7V-pw-qTI" kind="relationship" relationship="viewControllers" id="iHv-K7-frH"/>
                         <segue destination="XiJ-mT-R2p" kind="relationship" relationship="viewControllers" id="Wen-va-0Gc"/>
                         <segue destination="OFv-J2-aQn" kind="relationship" relationship="viewControllers" id="QLW-Y7-kdt"/>
                         <segue destination="8I5-nb-Tqi" kind="relationship" relationship="viewControllers" id="2dM-x6-L89"/>
@@ -468,7 +484,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VaW-De-wN5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="324.63768115942031" y="853.53260869565224"/>
+            <point key="canvasLocation" x="325" y="854"/>
         </scene>
         <!--Dag 1-->
         <scene sceneID="a82-dg-zAN">
@@ -494,7 +510,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrm-gx-tzl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076.8115942028987" y="853.53260869565224"/>
+            <point key="canvasLocation" x="1077" y="854"/>
         </scene>
         <!--Dag 2-->
         <scene sceneID="zQS-EF-hai">
@@ -520,7 +536,65 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tfb-XN-k21" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1884" y="854"/>
+            <point key="canvasLocation" x="1883" y="854"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="ZAJ-Pa-R0G">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W7V-pw-qTI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="mappin" catalog="system" selectedImage="map" id="C4P-ky-lLb">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tYc-DN-utX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.61740604779999997" blue="0.26989018529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="1" green="0.61740604779999997" blue="0.26989018529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QrI-W0-sxx" kind="relationship" relationship="rootViewController" id="MXi-30-CjX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gw9-uI-nyj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-410" y="854"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="fYj-MW-pew">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PyZ-lj-s0h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" selectedImage="house.fill" id="P2N-M9-7M1">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Rij-uw-DYQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="1" green="0.61740604779999997" blue="0.26989018529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="1" green="0.61740604779999997" blue="0.26989018529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xeR-NJ-aCS" kind="relationship" relationship="rootViewController" id="92g-BK-pdw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PKA-ZK-4O4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1223.1884057971015" y="853.53260869565224"/>
         </scene>
     </scenes>
     <resources>
@@ -537,6 +611,6 @@
         <image name="pngguru.com.png" width="450" height="450"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hVM-5C-pDb"/>
+        <segue reference="KUm-vP-AxP"/>
     </inferredMetricsTieBreakers>
 </document>
