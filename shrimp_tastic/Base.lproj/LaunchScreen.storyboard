@@ -15,21 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Seafront-Nieuwpoort-Belg.jpg" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dTZ-ih-4wG">
-                                <rect key="frame" x="-5" y="-7" width="424" height="910"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SB-kQ-jRh">
-                                <rect key="frame" x="20" y="229" width="374" height="317"/>
+                                <rect key="frame" x="0.0" y="229" width="414" height="507"/>
                                 <string key="text">Vistival
 2020
 Nieuwpoort</string>
-                                <fontDescription key="fontDescription" name="DamascusBold" family="Damascus" pointSize="55"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="55"/>
                                 <color key="textColor" red="0.98039215690000003" green="0.3562321812" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <size key="shadowOffset" width="3" height="8"/>
+                                <size key="shadowOffset" width="0.0" height="4"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngguru.com.png" translatesAutoresizingMaskIntoConstraints="NO" id="vbI-1i-9PZ">
                                 <rect key="frame" x="110" y="53" width="240" height="232"/>
@@ -38,21 +33,20 @@ Nieuwpoort</string>
                                 <rect key="frame" x="64" y="0.0" width="214" height="294"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.63679128890000003" green="0.84015554189999997" blue="0.82886445519999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2SB-kQ-jRh" secondAttribute="bottom" constant="190" id="2SD-tY-5Fv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2SB-kQ-jRh" secondAttribute="bottom" id="2SD-tY-5Fv"/>
                             <constraint firstItem="bbt-Dp-Hag" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="CL0-Wg-xbF"/>
-                            <constraint firstItem="2SB-kQ-jRh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="Dvr-7X-koU"/>
+                            <constraint firstItem="2SB-kQ-jRh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="Dvr-7X-koU"/>
                             <constraint firstItem="vbI-1i-9PZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="EoX-3t-j2e"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vbI-1i-9PZ" secondAttribute="trailing" constant="64" id="G2V-oh-4ie"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bbt-Dp-Hag" secondAttribute="trailing" constant="136" id="Kif-iZ-hyt"/>
                             <constraint firstItem="2SB-kQ-jRh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="229" id="POR-zY-0MH"/>
                             <constraint firstItem="bbt-Dp-Hag" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XLi-Sj-ZtZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vbI-1i-9PZ" secondAttribute="bottom" constant="451" id="bPC-oI-gEC"/>
-                            <constraint firstItem="2SB-kQ-jRh" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="cc9-nk-iHi"/>
+                            <constraint firstItem="2SB-kQ-jRh" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" constant="20" id="cc9-nk-iHi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bbt-Dp-Hag" secondAttribute="bottom" constant="442" id="cmg-yr-X1Z"/>
                             <constraint firstItem="vbI-1i-9PZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="xXG-4O-Tq7"/>
-                            <constraint firstItem="2SB-kQ-jRh" firstAttribute="centerX" secondItem="dTZ-ih-4wG" secondAttribute="centerX" id="zab-B8-RTI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -63,7 +57,6 @@ Nieuwpoort</string>
         </scene>
     </scenes>
     <resources>
-        <image name="Seafront-Nieuwpoort-Belg.jpg" width="1600" height="993"/>
         <image name="pngfuel.com.png" width="450" height="450"/>
         <image name="pngguru.com.png" width="450" height="450"/>
     </resources>

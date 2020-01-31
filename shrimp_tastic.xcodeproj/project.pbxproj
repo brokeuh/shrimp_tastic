@@ -28,11 +28,16 @@
 		5110034C23E1CF2500D41F80 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110034B23E1CF2500D41F80 /* DetailViewController.swift */; };
 		5110035123E1D0D600D41F80 /* Locaties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110035023E1D0D600D41F80 /* Locaties.swift */; };
 		5110035623E2D68C00D41F80 /* pngguru.com-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5110035223E2D68B00D41F80 /* pngguru.com-2.png */; };
-		5110035723E2D68C00D41F80 /* snoop.png in Resources */ = {isa = PBXBuildFile; fileRef = 5110035323E2D68B00D41F80 /* snoop.png */; };
-		5110035823E2D68C00D41F80 /* eel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5110035423E2D68C00D41F80 /* eel.jpg */; };
 		5110035923E2D68C00D41F80 /* whale.png in Resources */ = {isa = PBXBuildFile; fileRef = 5110035523E2D68C00D41F80 /* whale.png */; };
-		5110035B23E2D73500D41F80 /* snail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5110035A23E2D73500D41F80 /* snail.jpg */; };
 		5110035D23E304E800D41F80 /* LocatiesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110035C23E304E800D41F80 /* LocatiesDataSource.swift */; };
+		51D1263E23E41C5A0019EC1E /* dagEenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D1263D23E41C5A0019EC1E /* dagEenCell.swift */; };
+		51D1264423E430900019EC1E /* snoop.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D1264323E4308F0019EC1E /* snoop.png */; };
+		51D1264623E430A30019EC1E /* eel.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D1264523E430A30019EC1E /* eel.png */; };
+		51D1264823E430B10019EC1E /* snail.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D1264723E430B00019EC1E /* snail.png */; };
+		51D1264D23E43F3E0019EC1E /* bob.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D1264923E43F3D0019EC1E /* bob.png */; };
+		51D1264E23E43F3E0019EC1E /* shark.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D1264A23E43F3E0019EC1E /* shark.png */; };
+		51D1264F23E43F3E0019EC1E /* cod.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D1264B23E43F3E0019EC1E /* cod.png */; };
+		51D1265023E43F3E0019EC1E /* tuna.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D1264C23E43F3E0019EC1E /* tuna.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,11 +64,16 @@
 		5110034B23E1CF2500D41F80 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5110035023E1D0D600D41F80 /* Locaties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locaties.swift; sourceTree = "<group>"; };
 		5110035223E2D68B00D41F80 /* pngguru.com-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pngguru.com-2.png"; sourceTree = "<group>"; };
-		5110035323E2D68B00D41F80 /* snoop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snoop.png; sourceTree = "<group>"; };
-		5110035423E2D68C00D41F80 /* eel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eel.jpg; sourceTree = "<group>"; };
 		5110035523E2D68C00D41F80 /* whale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whale.png; sourceTree = "<group>"; };
-		5110035A23E2D73500D41F80 /* snail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snail.jpg; sourceTree = "<group>"; };
 		5110035C23E304E800D41F80 /* LocatiesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatiesDataSource.swift; sourceTree = "<group>"; };
+		51D1263D23E41C5A0019EC1E /* dagEenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dagEenCell.swift; sourceTree = "<group>"; };
+		51D1264323E4308F0019EC1E /* snoop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snoop.png; sourceTree = "<group>"; };
+		51D1264523E430A30019EC1E /* eel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eel.png; sourceTree = "<group>"; };
+		51D1264723E430B00019EC1E /* snail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snail.png; sourceTree = "<group>"; };
+		51D1264923E43F3D0019EC1E /* bob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bob.png; sourceTree = "<group>"; };
+		51D1264A23E43F3E0019EC1E /* shark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shark.png; sourceTree = "<group>"; };
+		51D1264B23E43F3E0019EC1E /* cod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cod.png; sourceTree = "<group>"; };
+		51D1264C23E43F3E0019EC1E /* tuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuna.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,11 +126,15 @@
 		5109F3FA23E1802800D68A59 /* media */ = {
 			isa = PBXGroup;
 			children = (
-				5110035A23E2D73500D41F80 /* snail.jpg */,
-				5110035423E2D68C00D41F80 /* eel.jpg */,
+				51D1264C23E43F3E0019EC1E /* tuna.png */,
+				51D1264923E43F3D0019EC1E /* bob.png */,
+				51D1264A23E43F3E0019EC1E /* shark.png */,
+				51D1264B23E43F3E0019EC1E /* cod.png */,
+				51D1264723E430B00019EC1E /* snail.png */,
+				51D1264523E430A30019EC1E /* eel.png */,
+				51D1264323E4308F0019EC1E /* snoop.png */,
 				5110035223E2D68B00D41F80 /* pngguru.com-2.png */,
 				5110035523E2D68C00D41F80 /* whale.png */,
-				5110035323E2D68B00D41F80 /* snoop.png */,
 				5109F40223E1A09200D68A59 /* pngfuel.com.png */,
 				5109F40323E1A09200D68A59 /* pngguru.com.png */,
 				5109F40123E1A09200D68A59 /* Seafront-Nieuwpoort-Belg.jpg */,
@@ -142,6 +156,7 @@
 				5110033F23E1C29600D41F80 /* ArtiestenCollectionViewCell.swift */,
 				5110033823E1BD7300D41F80 /* Artiest.swift */,
 				5110035023E1D0D600D41F80 /* Locaties.swift */,
+				51D1263D23E41C5A0019EC1E /* dagEenCell.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -226,15 +241,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D1264D23E43F3E0019EC1E /* bob.png in Resources */,
 				5110035623E2D68C00D41F80 /* pngguru.com-2.png in Resources */,
 				5109F3F323E1789200D68A59 /* LaunchScreen.storyboard in Resources */,
-				5110035B23E2D73500D41F80 /* snail.jpg in Resources */,
+				51D1264E23E43F3E0019EC1E /* shark.png in Resources */,
+				51D1264F23E43F3E0019EC1E /* cod.png in Resources */,
+				51D1264823E430B10019EC1E /* snail.png in Resources */,
 				5109F40623E1A09200D68A59 /* pngguru.com.png in Resources */,
+				51D1264423E430900019EC1E /* snoop.png in Resources */,
+				51D1264623E430A30019EC1E /* eel.png in Resources */,
 				5110035923E2D68C00D41F80 /* whale.png in Resources */,
-				5110035823E2D68C00D41F80 /* eel.jpg in Resources */,
-				5110035723E2D68C00D41F80 /* snoop.png in Resources */,
 				5109F40423E1A09200D68A59 /* Seafront-Nieuwpoort-Belg.jpg in Resources */,
 				5109F3F023E1789200D68A59 /* Assets.xcassets in Resources */,
+				51D1265023E43F3E0019EC1E /* tuna.png in Resources */,
 				5109F3EB23E1786B00D68A59 /* Main.storyboard in Resources */,
 				5109F40523E1A09200D68A59 /* pngfuel.com.png in Resources */,
 			);
@@ -261,6 +280,7 @@
 				5110034323E1CEC900D41F80 /* MapViewController.swift in Sources */,
 				5110034C23E1CF2500D41F80 /* DetailViewController.swift in Sources */,
 				5110035123E1D0D600D41F80 /* Locaties.swift in Sources */,
+				51D1263E23E41C5A0019EC1E /* dagEenCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
